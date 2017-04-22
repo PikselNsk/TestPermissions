@@ -15,6 +15,6 @@ public class BroadcastTest extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         Toast.makeText(context, "Alarm", Toast.LENGTH_LONG).show();
         Log.wtf("info.javaway.android.testpermissions", "testpermissions");
-
+        String newString = "hello";
     }
 }
