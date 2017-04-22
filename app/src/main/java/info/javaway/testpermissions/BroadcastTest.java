@@ -16,5 +16,6 @@ public class BroadcastTest extends BroadcastReceiver {
         Toast.makeText(context, "Alarm", Toast.LENGTH_LONG).show();
         Log.wtf("info.javaway.android.testpermissions", "testpermissions");
         String newString = "hello";
+        123
     }
 }
